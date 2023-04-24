@@ -73,3 +73,4 @@ sudo php artisan migrate --seed
 sudo service php7.4-fpm restart
 
 echo "Akaunting has been deployed successfully at http://192.168.0.22"
+notify-send "Installation Complete" "Akaunting has been installed!"
